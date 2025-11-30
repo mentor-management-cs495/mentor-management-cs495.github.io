@@ -9,13 +9,15 @@ Variables
 ----------------------------*/
 
 :root {
-    --main-color: #cc0000; /* strong red */
-    --blue: #cc0000;       
-    --blue-dark: #990000;  /* darker red for text */
-    --orange: #ffcccc;     /* light red tints */
+    --main-color: #8b0000;     /* dark red */
+    --blue: #8b0000;           
+    --blue-dark: #4a0000;      /* deeper red for text/shadows */
+    --orange: #b30000;         /* medium red accent */
     --green-yellow: #ffffff;
-    --pink-light: #ffdddd; /* background gradient colors */
-    --cyan-light: #ffffff;
+
+    /* soft whites and mild reds for glass backgrounds */
+    --pink-light: #330000;   
+    --cyan-light: #660000;
 
     --white: #ffffff;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
@@ -23,7 +25,6 @@ Variables
 
     --webkit-backdrop-filter: blur(5px);
 }
-
 
 
 /* ------------------------------------
@@ -44,7 +45,7 @@ Global Settings
 
 body {
 	min-height: 100vh;
-	background-image: linear-gradient(to bottom right, #ffcccc, #ffffff);
+	background-image: linear-gradient(to bottom right, #660000, #8b0000);
 	background-attachment: fixed;
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
